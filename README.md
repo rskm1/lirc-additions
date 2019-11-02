@@ -18,7 +18,7 @@ From my experiments so far, a typical tablet has an reliable/effective range of 
 But if you can configure your smartphone to trasnmit Disk Shot remote signals, you can use your phone to program a small learning IR remote control and then mount THAT to your Nerf blaster's tactical rail.
 
 ## Links
-https://irplus-remote.github.io - irplus, an excellent, free, versatile android app in the google play store.
-https://nerf.fandom.com/wiki/Disk_Shot - Wiki Page for the Nerf Disk Shot.
-https://nerf.fandom.com/wiki/Thread:74834 - Wiki discussion thread detailing the origins of this research project.
-http://lirc.sourceforge.net/remotes/ - Database of LIRC definition files.
+* https://irplus-remote.github.io - irplus, an excellent, free, versatile android app in the google play store.
+* https://nerf.fandom.com/wiki/Disk_Shot - Wiki Page for the Nerf Disk Shot.
+* https://nerf.fandom.com/wiki/Thread:74834 - Wiki discussion thread detailing the origins of this research project.
+* http://lirc.sourceforge.net/remotes/ - Database of LIRC definition files.
