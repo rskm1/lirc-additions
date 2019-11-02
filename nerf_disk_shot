@@ -1,0 +1,51 @@
+#
+# This file contains Hasbro Nerf Disk Shot configuration for
+# LIRC. https://nerf.fandom.com/wiki/Disk_Shot
+#
+# brand:Hasbro
+# model: Nerf Disk Shot
+#
+#
+
+# STILL A WORK IN PROGRESS. TRYING TO FIGURE OUT THE CODES FOR THE LAUNCH AND MOTION BUTTONS VIA TRIAL AND ERROR.
+# Basically used the Curtis Electronics TV remote as a starting point, since that's cira 1996 and relatively primitive
+# (no headers or anything). Then stripped that down from 13 bits to 4 bits. Not sure how to vary the duty cycle of
+# ones and zeros yet, looks like that's a global setting for ALL the buttons.  Grr.
+
+begin remote
+
+  name  Nerf_Disk_Shot
+  bits           4
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           927   848
+  zero          927   848
+  plead        1041
+  gap          113358
+  min_repeat      2
+  toggle_bit      2
+
+
+      begin codes
+          KEY_0                    0x0
+          KEY_1                    0x1
+          KEY_2                    0x2
+          KEY_3                    0x3
+          KEY_4                    0x4
+          KEY_5                    0x5
+          KEY_6                    0x6
+          KEY_7                    0x7
+          KEY_8                    0x8
+          KEY_9                    0x9
+          KEY_A                    0xA
+          KEY_B                    0xB
+          KEY_C                    0xC
+          KEY_D                    0xD
+          KEY_E                    0xE
+          KEY_F                    0xF
+      end codes
+
+end remote
+
