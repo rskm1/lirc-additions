@@ -1,7 +1,7 @@
 <!-- Converted from experimental work-in-progress .lirc file to XML format using https://irplus-remote.github.io/converter/lirc.html -->
 
 <irplus>
-	<device manufacturer="Hasbro" model="Nerf Disk Shot" columns="1" format="WINLIRC_RC5" bits="4" pre-bits="0" gap-pulse="1" one-pulse="927" one-space="848" zero-pulse="927" zero-space="848" repeat="2">
+	<device manufacturer="Hasbro" model="Nerf Disk Shot" columns="1" format="WINLIRC_RC5" bits="4" pre-bits="0" one-pulse="927" one-space="848" zero-pulse="927" zero-space="848" repeat="2">
 		<button label="0" span="4">0x0</button>
 		<button label="1" span="4">0x1</button>
 		<button label="2" span="4">0x2</button>
