@@ -15,7 +15,7 @@ But nobody has created a LIRC definition for the Nerf Disk Shot yet.
 This is my attempt to do so.
 
 From my experiments so far, a typical tablet has an reliable/effective range of about 6 inches with that setup, which doesn't make it very practical for actual use with the Disk Shot.
-But if you can configure your smartphone to trasnmit Disk Shot remote signals, you can use your phone to program a small learning IR remote control and then mount THAT to your Nerf blaster's tactical rail.
+But if you can configure your smartphone to transmit Disk Shot remote signals, you can use your phone to program a small learning IR remote control and then mount THAT to your Nerf blaster's tactical rail.
 
 ## Links
 * https://irplus-remote.github.io - irplus, an excellent, free, versatile android app in the google play store.
