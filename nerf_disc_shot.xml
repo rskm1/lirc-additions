@@ -1,0 +1,22 @@
+<!-- Converted from experimental work-in-progress .lirc file to XML format using https://irplus-remote.github.io/converter/lirc.html -->
+
+<irplus>
+	<device manufacturer="Hasbro" model="Nerf Disk Shot" columns="1" format="WINLIRC_RC5" bits="4" pre-bits="0" toggle-bit-pos="2" gap-pulse="1" gap-space="113358" one-pulse="927" one-space="848" zero-pulse="927" zero-space="848" repeat="3">
+		<button label="0" span="4">0x0</button>
+		<button label="1" span="4">0x1</button>
+		<button label="2" span="4">0x2</button>
+		<button label="3" span="4">0x3</button>
+		<button label="4" span="4">0x4</button>
+		<button label="5" span="4">0x5</button>
+		<button label="6" span="4">0x6</button>
+		<button label="7" span="4">0x7</button>
+		<button label="8" span="4">0x8</button>
+		<button label="9" span="4">0x9</button>
+		<button label="A" span="4">0xA</button>
+		<button label="B" span="4">0xB</button>
+		<button label="C" span="4">0xC</button>
+		<button label="D" span="4">0xD</button>
+		<button label="E" span="4">0xE</button>
+		<button label="F" span="4">0xF</button>
+	</device>
+</irplus>
